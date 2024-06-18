@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(255, 209, 5, 0.521), rgba(0, 0, 0, 0.5)),
+    url(../img/banlog.png);
+}
+
+.container {
+  width: 400px;
+  min-height: 400px;
+  background: #ebebeb;
+  margin-right: 300px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 40px 30px;
+}
+
+
+.container .login-email .login-text {
+  color: #111;
+  height: 50px;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-align: center;
+  display: block;
+  text-transform: capitalize;
+}
+
+.container .login-email .login-text2 {
+  color: #111;
+  height: 2px;
+  font-weight: 800;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 50px;
+  display: block;
+  text-transform: capitalize;
+}
+
+.container .login-email .input-group {
+  width: 100%;
+  height: 30px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.container .login-email .input-group input {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #e7e7e7;
+  padding: 15px 20px;
+  font-size: 1rem;
+  border-radius: 30px;
+  background: transparent;
+  outline: none;
+  transition: 0.3s;
+}
+
+.container .login-email .input-group input:focus,
+.container .login-email .input-group input:valid {
+  border-color: #ffbc05;
+}
+
+.container .login-email .input-group .btn {
+  width: 150pt;
+  height: 40pt;
+  text-align: center;
+  border: none;
+  background: #ffbc05;
+  outline: none;
+  border-radius: 90px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #fff;
+  cursor: hand;
+  transition: 0.3s;
+}
+
+.container .login-email .input-group .btn:hover {
+  transform: translateY(-5px);
+  background: #ff9100;
+}
+
+.ftr{
+  margin-right: 300px;
+  color: #fff;
+}
+
+.login-register-text {
+  color: #111;
+  font-weight: 600;
+  height: 10px;
+}
+
+.login-register-text a {
+  text-decoration: none;
+  color: #ff9100;
+}
+
+.container-logout {
+  width: 500px;
+  min-height: 200px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 40px 30px;
+}
+
+.container-logout .login-email .input-group .btn {
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+  text-align: center;
+  border: none;
+  background: #ffd000;
+  outline: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 5px;
+}
+
+.container-logout .login-email .input-group .btn:hover {
+  transform: translateY(5px);
+  background: #ffe600;
+}
+
+.input-group {
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+
+@media (max-width: 430px) {
+  .container {
+    width: 300px;
+  }
+}
